@@ -1,12 +1,19 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import ItemsCarousel from 'react-items-carousel';
 
 import './App.css';
-import { Container, Header, Main, Footer, CarouselItem, Chevron, Projects } from './styles';
+import { Container, Header, Main, Footer, CarouselItem, Chevron, Projects, ToolsGrid, Tools } from './styles';
 
 import Logo from './assets/images/logo.png';
 import GitHubLogo from './assets/images/github-icon.png'
 import LinkedInLogo from './assets/images/linkedin-icon.png'
+
+import node from './assets/images/node.png'
+import react from './assets/images/react.png'
+import git from './assets/images/git.png'
+import figma from './assets/images/figma.png'
+import firebase from './assets/images/firebase.png'
+import mongo from './assets/images/mongo.png'
 
 import ex1 from './assets/images/ex1.png';
 import ex2 from './assets/images/ex2.png';
@@ -17,6 +24,7 @@ import chevronR from './assets/images/chevronR.png';
 
 const App = () => {
   const [activeItemIndex, setActiveItemIndex] = useState(0);
+
   return(
      <>
       <Container type="dark" id="main">
@@ -35,10 +43,22 @@ const App = () => {
             <h1>Eu sou desenolvedor de software.</h1>
             <a href="#about">ME CONHEÇA MAIS</a>
         </Main>
-        
       </Container>
       <Container type="light" id="about"/>
-      <Container type="dark" id="tools"/>
+
+      <Container type="dark" id="tools">
+        <Tools>
+          <h1>Ferramentas/Tecnologias</h1>
+          <ToolsGrid>
+            <img src={node} alt="Image"/>
+            <img src={react} alt="Image"/>
+            <img src={git} alt="Image"/>
+            <img src={figma} alt="Image"/>
+            <img src={firebase} alt="Image"/>
+            <img src={mongo} alt="Image"/>
+          </ToolsGrid>
+        </Tools>
+      </Container>
 
       <Container type="light" id="projects">
           <Projects>
