@@ -5,7 +5,9 @@ import { Container } from './styles';
 const App = () => {
   return(
      <>
-      <Container type="dark"/>
+      <Container type="dark">
+        <h1>asdasdasd</h1>
+      </Container>
       <Container type="light"/>
       <Container type="dark"/>
       <Container type="light"/>
