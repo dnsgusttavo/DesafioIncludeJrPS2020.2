@@ -1,8 +1,10 @@
 import React from 'react';
 import './App.css';
-import { Container, Header, Main } from './styles';
+import { Container, Header, Main, Footer } from './styles';
 
-import Logo from './assets/images/logo.png'
+import Logo from './assets/images/logo.png';
+import GitHubLogo from './assets/images/github-icon.png'
+import LinkedInLogo from './assets/images/linkedin-icon.png'
 const App = () => {
   return(
      <>
@@ -27,6 +29,16 @@ const App = () => {
       <Container type="light" id="about"/>
       <Container type="dark" id="tools"/>
       <Container type="light" id="projects"/>
+
+      <Footer>
+        <img src={Logo} alt="logo"/>
+        <p>Copyright © 2020 Gustavo Moraes Maltez</p>
+
+        <ul>
+          <li><a href="https://github.com/dnsgusttavo"><img src={GitHubLogo}/></a></li>
+          <li><a href="https://www.linkedin.com/in/gustavommaltez/"><img src={LinkedInLogo}/></a></li>
+        </ul>
+      </Footer>
      </>
      )
 }
