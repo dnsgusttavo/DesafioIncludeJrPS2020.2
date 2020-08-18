@@ -1,8 +1,16 @@
 import React from 'react';
 import './App.css';
+import { Container } from './styles';
 
 const App = () => {
-  return( <h1>Desafio IncludeJr</h1> )
+  return(
+     <>
+      <Container type="dark"/>
+      <Container type="light"/>
+      <Container type="dark"/>
+      <Container type="light"/>
+     </>
+     )
 }
 
 export default App;
