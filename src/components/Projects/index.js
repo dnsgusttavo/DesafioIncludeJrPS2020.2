@@ -1,4 +1,4 @@
-import React, {useState } from 'react';
+import React, { useState } from 'react';
 import ItemsCarousel from 'react-items-carousel';
 
 import ex1 from '../../assets/images/ex1.png';
@@ -9,12 +9,12 @@ import chevronL from '../../assets/images/chevronL.png';
 import chevronR from '../../assets/images/chevronR.png';
 
 import { Container } from '../../styles';
-import { CarouselItem,Chevron, ProjectsBox } from './styles';
+import { CarouselItem, Chevron, ProjectsBox } from './styles';
 
 const Projects = () => {
     const [activeItemIndex, setActiveItemIndex] = useState(0);
     return(
-        <Container type="light" id="projects">
+      <Container type="light" id="projects">
           <ProjectsBox>
           <h1 id="title">Meus Projetos</h1>
           <ItemsCarousel

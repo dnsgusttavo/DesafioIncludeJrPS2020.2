@@ -7,7 +7,7 @@ import figma from '../../assets/images/figma.png'
 import firebase from '../../assets/images/firebase.png'
 import mongo from '../../assets/images/mongo.png'
 
-import {Container } from '../../styles';
+import { Container } from '../../styles';
 import { Tools, ToolsGrid } from './styles';
 
 const Technologies = () => {

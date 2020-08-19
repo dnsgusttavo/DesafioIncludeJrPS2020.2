@@ -1,14 +1,14 @@
 import React from 'react';
 
 import Logo from '../../assets/images/logo.png';
-import {Container } from '../../styles';
+import { Container } from '../../styles';
 import { Header, Main } from './styles';
 
 const Home = () => {
     return(
-        <Container type="dark" id="main">
+      <Container type="dark" id="main">
         <Header>
-          <img src={Logo} alt="logo"/>
+          <img src={Logo} alt="Logo"/>
           <ul>
             <li><a href="#about">Sobre</a></li>
             <li><a href="#tools">Tecnologias</a></li>

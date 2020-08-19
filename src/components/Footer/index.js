@@ -5,6 +5,7 @@ import { FooterBox } from './styles';
 import Logo from '../../assets/images/logo.png';
 import GitHubLogo from '../../assets/images/github-icon.png'
 import LinkedInLogo from '../../assets/images/linkedin-icon.png'
+
 const Footer = () => {
     return(
         <FooterBox>

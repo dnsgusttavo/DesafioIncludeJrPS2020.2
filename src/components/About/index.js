@@ -1,13 +1,13 @@
 import React from 'react';
 
-import Logo from '../../assets/images/logo.png';
-import {Container } from '../../styles';
-import {  } from './styles';
+import { Container } from '../../styles';
 
-const Home = () => {
+const About = () => {
     return(
-        
+        <Container type="light" id="about">
+            <h1>asdasdasdas</h1>
+        </Container>
     )
 }
 
-export default Home;
+export default About;
