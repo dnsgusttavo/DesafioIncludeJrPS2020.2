@@ -2,13 +2,12 @@ import React from 'react';
 
 import ProfilePic from '../../assets/images/gustavo.png'
 import { Container } from '../../styles';
-import { AboutBox, Grid, Infos } from './styles';
+import { AboutBox, Infos } from './styles';
 
 const About = () => {
     return(
         <Container type="light" id="about">
-            <AboutBox>
-                
+            <AboutBox>        
                 <img src={ProfilePic} alt="Gustavo Profile Photo"/>
                 <Infos>
                     <h1>Sobre Mim</h1>
