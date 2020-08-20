@@ -9,10 +9,10 @@ export const AboutBox = styled.section`
     padding: 0 10%;
 
     img{
-        width: 50%;
+        width: 100%;
         border-radius: 4rem;
     }
-    
+
 `
 
 export const Infos = styled.main`
@@ -20,15 +20,17 @@ export const Infos = styled.main`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
+    animation: swipe-up 1s;
     h1{
         font: bold 6rem  'Roboto Condensed', sans-serif;
         color: #444444;
     }
 
     p{
-        font: normal 3rem 'Roboto Condensed', sans-serif;
+        font: normal 2.5rem 'Roboto Condensed', sans-serif;
         color: #1D1D1D;
         padding: 4rem;
+        text-align: justify;
     }
+
 `
