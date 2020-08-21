@@ -9,6 +9,15 @@ export const ToolsGrid = styled.section`
         width: 20rem;
         margin: 0 4rem;
     }
+
+    @media (max-width: 700px){
+        grid-gap: 2rem;
+        grid-template-columns: 1fr 1fr;
+        img{
+            width: calc(100vw * 0.3);
+            margin: 0 2rem;
+        }
+    }
 `
 export const Tools = styled.main`
     height: 100%;
@@ -23,4 +32,11 @@ export const Tools = styled.main`
         font: bold 6rem  'Roboto Condensed', sans-serif;
         color: #FFF;
     }
+
+    @media (max-width: 700px){
+        h1{
+            font-size: 3rem;
+        }
+    }
+
 `

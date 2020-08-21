@@ -33,4 +33,18 @@ export const FooterBox = styled.footer`
     ul li a img{
         width: 6rem;
     }
+
+    @media (max-width: 700px){
+        img{
+            width: calc(100vw * 0.4);
+        }
+
+        p{
+            display: none;
+        }
+
+        ul li a img{
+            width: calc(100vw * 0.09);
+        }
+    }
 `;

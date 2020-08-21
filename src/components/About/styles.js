@@ -13,6 +13,13 @@ export const AboutBox = styled.section`
         border-radius: 4rem;
     }
 
+    @media (max-width: 700px){
+        flex-direction: column-reverse;
+        img{
+            width: 50%;
+        }
+    }
+
 `
 
 export const Infos = styled.main`
@@ -20,7 +27,7 @@ export const Infos = styled.main`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    animation: swipe-up 1s;
+
     h1{
         font: bold 6rem  'Roboto Condensed', sans-serif;
         color: #444444;
@@ -31,6 +38,16 @@ export const Infos = styled.main`
         color: #1D1D1D;
         padding: 4rem;
         text-align: justify;
+    }
+
+    @media (max-width: 700px){
+        h1{
+            font-size: 4rem;
+        }
+        p{
+            font-size: calc(100vw * 0.04);
+            padding: calc(100vh * 0.01);
+        }
     }
 
 `

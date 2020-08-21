@@ -30,4 +30,5 @@ export const ProjectsBox = styled.main`
         font: bold 6rem  'Roboto Condensed', sans-serif;
         color: #444444;
     }
+
 `
