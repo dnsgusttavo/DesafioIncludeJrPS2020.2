@@ -3,9 +3,6 @@
 
 🚀 Projeto desenvolvido para o PS2020.2 da [IncludeJr](https://includejr.com.br/)
 
-## 🌟 Veja o projeto em: 
-https://gustavomaltez-portifolio.vercel.app/
-
 ## 📐 Protótipo:
 [Acesse](https://www.figma.com/file/uomkSSjJlsoZ2P4WGqgS1G/DesafioIncludeJr?node-id=0%3A1) ou [Baixe](https://github.com/dnsgusttavo/DesafioIncludeJrPS2020.2/raw/master/Promo/Prot%C3%B3tipo%20Figima.fig) o Protótipo do figma!
 
